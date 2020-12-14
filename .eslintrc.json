@@ -25,12 +25,5 @@
 			{ "extensions": [".js", ".jsx", ".tsx"] }
 		],
 		"import/extensions": "off"
-	},
-	"settings": {
-		"import/resolver": {
-			"node": {
-				"extensions": [".js", ".jsx", ".ts", ".tsx"]
-			}
-		}
 	}
 }

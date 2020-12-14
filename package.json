@@ -24,7 +24,10 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "Echo \"Pre Commit\""
+			"pre-commit": [
+				"Echo \"Pre Commit Hook: Prettier\"",
+				"lint-staged "
+			]
 		}
 	},
 	"lint-staged": {
